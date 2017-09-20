@@ -39,7 +39,7 @@ deactivate
 ### Install requirements
 
 ```bash
-pip freeze > requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Launch the App
