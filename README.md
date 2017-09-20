@@ -42,7 +42,7 @@ virtualenv -p {location_of_python3} bandwidth-python-quickstart
 source bandwidth-python-quickstart/bin/activate
 ```
 
-❗❗❗ When your done be sure to `deactivate` ❗❗❗
+❗❗❗ When you're done be sure to `deactivate` ❗❗❗
 
 ```bash
 deactivate
