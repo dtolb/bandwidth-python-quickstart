@@ -15,6 +15,8 @@ Simple Quickstart for Bandwidth and Python 3 using Flask
 
 ## Setup Environment Variables
 
+> [How to setup environment variables](https://www.schrodinger.com/kb/1842)
+
 | Environment Variable   | Description                                                    | Example                |
 |:-----------------------|:---------------------------------------------------------------|:-----------------------|
 | `BANDWIDTH_USER_ID`    | [Bandwidth user-id](http://dev.bandwidth.com/security.html)    | `u-123sdaf9834sd`      |
