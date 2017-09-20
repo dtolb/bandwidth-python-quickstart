@@ -30,10 +30,10 @@ def po(o):
     pp = pprint.PrettyPrinter(indent=4)
     pp.pprint(o)
 
-# Just a nice hello world :) 👋 🌎
+# Just a nice hello world :)
 @app.route('/')
 def hello():
-    return 'Hello World From Bandwidth!! 👋 🌎'
+    return 'Hello World From Bandwidth!!'
 
 @app.route('/inbound-voice-callbacks', methods=['POST'])
 def handle_voice():
@@ -69,10 +69,10 @@ def handle_voice():
 
     elif event_type == 'hangup':
 
-        #send a message to them 😀
+        #send a message to them 
         messaging_api.send_message( from_ = callback_event['to'],
                                   to = callback_event['from'],
-                                  text = '🤡 That was fun!',
+                                  text = ':) That was fun!',
                                   media = ['https://s3.amazonaws.com/bwdemos/hello.jpg'])
         return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
 
@@ -93,13 +93,13 @@ def handle_message():
     if event_type == 'sms':
         messaging_api.send_message( from_ = callback_event['to'],
                                   to = callback_event['from'],
-                                  text = '👍 Great job texting! Keep it up')
+                                  text = 'Great job texting! Keep it up')
         return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
 
     elif event_type == 'mms':
         messaging_api.send_message( from_ = callback_event['to'],
                                   to = callback_event['from'],
-                                  text = '👍 Great job sending a 🌅. Here is a cute 🐶',
+                                  text = 'Great job sending a mms. Here is a cute dog',
                                   media = ['https://s3.amazonaws.com/bwdemos/cute_dog.jpg'])
         return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
 
