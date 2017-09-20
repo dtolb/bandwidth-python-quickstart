@@ -2,11 +2,9 @@
 
 # bandwidth-python-quickstart
 
-<img src="https://s3.amazonaws.com/bwdemos/BW_Voice%26Messaging.png"/>
-</div>
-
----
+<img src="https://s3.amazonaws.com/bwdemos/BW_Voice_Messaging.png"/>
 Simple Quickstart for Bandwidth and Python 3 using Flask
+</div>
 
 ## Pre-reqs
 
