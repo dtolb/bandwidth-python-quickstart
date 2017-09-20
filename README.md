@@ -4,14 +4,22 @@ Simple Quickstart for Bandwidth and Python 3 using Flask
 ## Pre-reqs
 
 * [Bandwidth Account](http://dev.bandwidth.com)
-* `userId`, `token`, & `secret` set as environment variables
 * [ngrok](https://ngrok.com/) Installed with account
 * [Python 3](https://www.python.org/downloads/)
 * [VirtualEnv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
+## Setup Environment Variables
+
+| Environment Variable   | Description                                                    | Example                |
+|:-----------------------|:---------------------------------------------------------------|:-----------------------|
+| `BANDWIDTH_USER_ID`    | [Bandwidth user-id](http://dev.bandwidth.com/security.html)    | `u-123sdaf9834sd`      |
+| `BANDWIDTH_API_TOKEN`  | [Bandwidth API Token](http://dev.bandwidth.com/security.html)  | `t-asdg920358askdf`    |
+| `BANDWIDTH_API_SECRET` | [Bandwidth API Secret](http://dev.bandwidth.com/security.html) | `asdfkljasd2305jsdlkf` |
+
 ## Installation
 
-[Video Walkthrough]()
+[![](https://img.youtube.com/vi/MttOYzV6xK4/0.jpg)](http://www.youtube.com/watch?v=MttOYzV6xK4 "Click to play on Youtube.com")
+
 
 ### Clone this repo
 
