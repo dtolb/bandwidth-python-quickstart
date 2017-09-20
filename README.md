@@ -16,9 +16,13 @@ Simple Quickstart for Bandwidth and Python 3 using Flask
 | `BANDWIDTH_API_TOKEN`  | [Bandwidth API Token](http://dev.bandwidth.com/security.html)  | `t-asdg920358askdf`    |
 | `BANDWIDTH_API_SECRET` | [Bandwidth API Secret](http://dev.bandwidth.com/security.html) | `asdfkljasd2305jsdlkf` |
 
+## Video Walk Through
+
+[![](readme_images/play_file.png)](http://www.youtube.com/watch?v=MttOYzV6xK4 "Click to play on Youtube.com")
+
+
 ## Installation
 
-[![](https://img.youtube.com/vi/MttOYzV6xK4/0.jpg)](http://www.youtube.com/watch?v=MttOYzV6xK4 "Click to play on Youtube.com")
 
 
 ### Clone this repo
