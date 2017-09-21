@@ -1,0 +1,42 @@
+<html>
+<head>
+  <link href="https://d3l0ifulerbodr.cloudfront.net/main.css" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src= {{ url_for('static', filename = 'js/navigation.js') }}></script>
+  <style type="text/css">
+    .mainpage {
+      margin: 25;
+      padding: 25;
+    }
+  </style>
+</head>
+<body>
+<!-- Start component HTML -->
+<header>
+    <div id="logo-wrap">
+        <a href="#" id="logo"><img src= {{ url_for('static', filename = 'images/bandwidth-logo-blue.png') }} alt="Bandwidth logo" /></a>
+        <div id="mobile-menu"><span id="current-page"></span><i class="icons8-menu"></i></div>
+    </div>
+    <div id="nav-wrap">
+        <nav id="primary">
+            <a href="http://dev.bandwidth.com/python-bandwidth">Python Docs</a>
+            <a href="http://dev.bandwidth.com">API Docs</a>
+            <a href="https://app.bandwidth.com">Login to Bandwidth</a>
+        </nav>
+    </div>
+</header>
+<section id="main" class=""><!-- Adding class="sidebar" will show the secondary nav on the left -->
+    <div id="main-content" class="mainpage">
+        <h1>Bandwidth Python Quick Start</h1>
+        <h2>Here are your demo numbers:</h2>
+        {% for n in numbers_list %}
+        <h3>{{n.national_number}}</h3>
+        {% endfor %}
+    </div>
+</section>
+<!-- End component HTML -->
+</body>
+</html>
