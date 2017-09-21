@@ -1,1 +1,1 @@
-web: FLASK_APP=app.py flask run -p $PORT
+worker: FLASK_APP=app.py flask run -p $PORT
