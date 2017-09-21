@@ -1,0 +1,22 @@
+
+{
+  "name": "bandwidth-python-quickstart",
+  "description": "Simple Quickstart for Bandwidth and Python 3 using Flask",
+  "logo": "https://avatars2.githubusercontent.com/u/12057884?v=3&s=200",
+  "keywords": [
+    "bandwidth",
+    "flask",
+    "python",
+    "quickstart"
+  ],
+  "env": {
+    "BANDWIDTH_USER_ID": {
+      "description": "Your Bandwidth API User Id, like u-kljgl934s"
+    },
+    "BANDWIDTH_API_TOKEN": {
+      "description": "Your Bandwidth API Token, like: t-kgkja23skd"
+    },
+    "BANDWIDTH_API_SECRET": {
+      "description": "Your Bandwidth API Secret, like: ja35ijsadfoi"
+    }
+}

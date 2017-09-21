@@ -13,13 +13,15 @@ Simple Quickstart for Bandwidth and Python 3 using Flask
 * [Python 3](https://www.python.org/downloads/)
 * [VirtualEnv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Setup Environment Variables
 
 > [How to setup environment variables](https://www.schrodinger.com/kb/1842)
 
 | Environment Variable   | Description                                                    | Example                |
 |:-----------------------|:---------------------------------------------------------------|:-----------------------|
-| `BANDWIDTH_USER_ID`    | [Bandwidth user-id](http://dev.bandwidth.com/security.html)    | `u-123sdaf9834sd`      |
+| `BANDWIDTH_USER_ID`    | [Bandwidth USER Id](http://dev.bandwidth.com/security.html)    | `u-123sdaf9834sd`      |
 | `BANDWIDTH_API_TOKEN`  | [Bandwidth API Token](http://dev.bandwidth.com/security.html)  | `t-asdg920358askdf`    |
 | `BANDWIDTH_API_SECRET` | [Bandwidth API Secret](http://dev.bandwidth.com/security.html) | `asdfkljasd2305jsdlkf` |
 
